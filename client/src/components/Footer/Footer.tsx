@@ -9,7 +9,6 @@ import "./footer.css";
 function Copyright() {
   return (
     <Typography className="footer-text" style={{ color: "white" }} variant="body2">
-      {"تمامی حقوق مادی و معنوی این وب سایت متعلق به دانشگاه صنعتی ارومیه می باشد ©"}
       {new Date().getFullYear()}
     </Typography>
   );
